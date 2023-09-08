@@ -1,0 +1,296 @@
+/* Font Links */
+@font-face {
+    font-family: playfairDisplay-regular;
+    src: url(../fonts/playfair-display/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: playfairDisplay-medium;
+    src: url(../fonts/playfair-display/playfairDisplay-medium.ttf);
+}
+
+@font-face {
+    font-family: playfairDisplay-bold;
+    src: url(../fonts/playfair-display/playfairDisplay-bold.ttf);
+}
+
+/* Common CSS Star */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: light;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: playfairDisplay-regular;
+    font-weight: 400;
+    font-size: 30px;
+    color: #626262;
+}
+
+p {
+    font-family: playfairDisplay-regular;
+    font-size: 15px;
+    font-weight: regular;
+    color: #626262;
+    line-height: 26px;
+}
+/* Common CSS End */
+
+
+/* Header CSS Start */
+.header {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+    margin: 46px 0;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    width: 60%;
+    float: right;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+    
+}
+
+.menu ul li a {
+    font-family: playfairDisplay-regular;
+    font-size: 16px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 50px 50px;
+    display: inline-block;
+}
+
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+
+.menu ul li a:hover {
+    font-family: playfairDisplay-bold;
+    color: black;
+}
+/* Header CSS End */ 
+
+/* Banner CSS Start */
+.banner {
+    text-align: center;
+}
+/* Banner CSS End */
+
+/* Container CSS Start */
+.container {
+    width: 1050px;
+    margin: 0 auto;
+}
+/* Container CSS End */
+
+/* Weekend CSS Start */
+.weekend {
+    margin-top: 100px;
+}
+
+.weekend h1 {
+    padding-bottom: 30px;
+
+}
+.weekend h2 {
+    padding-bottom: 35px;
+}
+
+.weekend p {
+    padding-bottom: 50px;
+    line-height: 26px;
+}
+/* Weekend CSS End*/
+
+/* Lifesytle, Photodairy & Blog CSS Start */
+.lifestyle, .photodairy, .blog {
+    overflow: hidden;
+    margin-top: 135px;
+}
+
+.lyfstyl-lft, .photodairy-lft, .blog-lft {
+    width: 47%;
+    float: left;
+}
+
+.lyfstyl-lft-img img, .photodairy-lft-img img, .blog-lft-img img {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.lyfstyl-lft-txt h1, .photodairy-lft-txt h1, .blog-lft-txt h1 {
+    padding-bottom: 30px;
+}
+
+.lyfstyl-lft-txt h2, .photodairy-lft-txt h2, .blog-lft-txt h2 {
+    padding-bottom: 35px;
+}
+
+.lyfstyl-rght, .photodairy-rght, .blog-rght {
+    width: 47%;
+    float: right;
+}
+
+.lyfstyl-rght-img img, .photodairy-rght-img img, .blog-rght-img img {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.lyfstyl-rght-txt h1, .photodairy-rght-txt h1, .blog-rght-txt h1 {
+    padding-bottom: 30px;
+}
+
+.lyfstyl-rght-txt h2, .photodairy-rght-txt h2, .blog-rght-txt h2 {
+    padding-bottom: 35px;
+}
+/* Lifestyle, Photodairy & Blog CSS End*/
+
+/* Newsletter CSS Start */
+.newsltr {
+    background-color: #f0f0f0;
+    text-align: center;
+    margin-top: 135px;
+}
+
+.news-head h4 {
+    font-family: playfairDisplay-regular;
+    font-weight: 600;
+    font-size: 30px;
+    color: #626262;
+    padding: 70px 0;
+}
+
+.news-email {
+    padding-bottom: 70px;
+}
+
+.news-email input {
+	width: 250px;
+	padding: 20px 50px;
+	border-bottom: 1px solid black;
+    border-top: none;
+	border-left: none;
+	border-right: none;
+	background: none;
+	text-align: center;
+}
+
+.news-email a {
+    font-size: 20px;
+    color: #000000;
+}
+
+/* Newsletter CSS End */
+
+/* Load More CSS Start */
+.load {
+	text-align: center;
+}
+
+.load a {
+    font-family: playfairDisplay-regular;
+    font-size: 18px;
+    color: #626262;
+    border: 1px solid #626262;
+    display: inline-block;
+    padding: 20px 35px;
+    margin: 160px 0;
+    text-decoration: none;
+}
+
+.load a:hover {
+    color: #fff;
+    background-color: #626262;
+}
+/* Load More CSS End */
+
+/* Footer CSS Start */
+footer {
+    background-color: #f0f0f0;
+}
+
+.f_container {
+    width: 1050px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.f-contain-lft {
+    width: 40%;
+    float: left;
+    padding: 40px 0;
+}
+
+.f-contain-lft ul li {
+    list-style: none;
+    float: left;
+}
+
+.f-contain-lft ul li a {
+    font-family: playfairDisplay-regular;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.f-contain-rght {
+    width: 40%;
+    float: right;
+    text-align: right;
+    padding: 40px 0;
+}
+
+.f-contain-rght a {
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.f-contain-rght a:nth-child(1) {
+    font-family: playfairDisplay-regular;
+    font-size: 16px;
+}
+
+.f-contain-rght a:nth-child(3):hover {
+    color: blue;
+    rotate: 60deg;
+}
+
+.f-contain-rght a:nth-child(even):hover {
+    color: blue;
+    rotate: 60deg;
+}
+/* Footer CSS End */
+

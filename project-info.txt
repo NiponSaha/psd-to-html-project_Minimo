@@ -1,0 +1,32 @@
+Header Menu: 
+    width - 1200px
+
+============================
+Font-info:
+
+Menu:
+font-family: playfair Display
+font-size: 16px
+color: #626262
+
+small-Heading:
+font-family: 'Ubuntu', sans-serif;
+font-weight: regular
+font-size: 14px
+color: #b4ad9e
+
+big-Heading: 
+font-family: playfair Display
+font-weight: bold/700
+font-size: 30px;
+color: #626262
+
+Paragraph:
+font-family: playfair Display
+font-size: 14px
+font-weight: regular
+color: #626262
+
+============================
+
+
