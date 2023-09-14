@@ -20,24 +20,24 @@
     padding: 0;
 }
 
-h1, h3 {
+.c-light {
     font-family: 'Ubuntu', sans-serif;
-    font-weight: light;
     font-size: 14px;
+    font-weight: 300;
     color: #b4ad9e;
     text-transform: uppercase;
 }
 
-h2 {
+.c-title {
     font-family: playfairDisplay-regular;
-    font-weight: 400;
     font-size: 30px;
+    font-weight: 400;
     color: #626262;
 }
 
-p {
+.c-txt {
     font-family: playfairDisplay-regular;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: regular;
     color: #626262;
     line-height: 26px;
@@ -47,15 +47,15 @@ p {
 
 /* Header CSS Start */
 .header {
-    width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
+    padding: 30px 0;
+	width: 65%;
+	margin: 0 auto;
+	overflow: hidden;
 }
 
 .logo {
     width: 10%;
     float: left;
-    margin: 46px 0;
 }
 
 .logo img {
@@ -74,144 +74,141 @@ p {
 .menu ul li {
     list-style: none;
     float: left;
-    
 }
 
 .menu ul li a {
+    margin: 0 50px;
+    padding-bottom: 10px;
+    display: inline-block;
     font-family: playfairDisplay-regular;
     font-size: 16px;
     color: #626262;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 50px 50px;
-    display: inline-block;
+    border-bottom: 2px solid transparent;
 }
 
 .menu ul li:last-child a {
-	padding-right: 0;
+	margin-right: 0;
 }
 
 .menu ul li a:hover {
-    font-family: playfairDisplay-bold;
+    font-family: playfairDisplay-regular;
     color: black;
+    border-bottom: 2px solid black;
+    transition: 0.33s;
 }
 /* Header CSS End */ 
 
 /* Banner CSS Start */
 .banner {
-    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.bnr-img img {
+    width: 100%;
 }
 /* Banner CSS End */
 
-/* Container CSS Start */
+/* weekend CSS Start */
 .container {
-    width: 1050px;
     margin: 0 auto;
-}
-/* Container CSS End */
-
-/* Weekend CSS Start */
-.weekend {
-    margin-top: 100px;
-}
-
-.weekend h1 {
-    padding-bottom: 30px;
-
-}
-.weekend h2 {
-    padding-bottom: 35px;
-}
-
-.weekend p {
-    padding-bottom: 50px;
-    line-height: 26px;
-}
-/* Weekend CSS End*/
-
-/* Lifesytle, Photodairy & Blog CSS Start */
-.lifestyle, .photodairy, .blog {
+    width: 55%;
+    /* border: 2px solid tomato; */
     overflow: hidden;
-    margin-top: 135px;
 }
 
-.lyfstyl-lft, .photodairy-lft, .blog-lft {
+.w-section {
+    padding: 100px 0 30px;
+}
+
+.c-title {
+    margin: 10px 0 20px;
+}
+
+.c-txt{
+    margin-bottom: 30px;
+}
+/* weekend CSS End */
+
+/* Blog1 CSS Start */
+.s-blog {
+    margin-top: 70px;
     width: 47%;
     float: left;
+    box-sizing: border-box;
 }
 
-.lyfstyl-lft-img img, .photodairy-lft-img img, .blog-lft-img img {
+.s-blog:nth-child(even) {
+    margin-left: 6%;
+}
+
+.s-img {
+    margin-bottom: 30px;
+}
+
+.s-img img {
     width: 100%;
-    padding-bottom: 30px;
 }
-
-.lyfstyl-lft-txt h1, .photodairy-lft-txt h1, .blog-lft-txt h1 {
-    padding-bottom: 30px;
-}
-
-.lyfstyl-lft-txt h2, .photodairy-lft-txt h2, .blog-lft-txt h2 {
-    padding-bottom: 35px;
-}
-
-.lyfstyl-rght, .photodairy-rght, .blog-rght {
-    width: 47%;
-    float: right;
-}
-
-.lyfstyl-rght-img img, .photodairy-rght-img img, .blog-rght-img img {
-    width: 100%;
-    padding-bottom: 30px;
-}
-
-.lyfstyl-rght-txt h1, .photodairy-rght-txt h1, .blog-rght-txt h1 {
-    padding-bottom: 30px;
-}
-
-.lyfstyl-rght-txt h2, .photodairy-rght-txt h2, .blog-rght-txt h2 {
-    padding-bottom: 35px;
-}
-/* Lifestyle, Photodairy & Blog CSS End*/
+/* Blog1 CSS End */
 
 /* Newsletter CSS Start */
 .newsltr {
+    padding-top: 70px;
+}
+.news-container {
+    padding: 70px 0 70px;
     background-color: #f0f0f0;
     text-align: center;
-    margin-top: 135px;
 }
 
-.news-head h4 {
-    font-family: playfairDisplay-regular;
-    font-weight: 600;
-    font-size: 30px;
-    color: #626262;
-    padding: 70px 0;
+.signup-h1 {
+    color: #333;
+    margin-bottom: 50px;
 }
 
-.news-email {
-    padding-bottom: 70px;
+.signup form {
+    width: 400px;
+    /* border: 2px solid tomato; */
+    margin: 0 auto;
+    position: relative;
 }
 
-.news-email input {
-	width: 250px;
-	padding: 20px 50px;
-	border-bottom: 1px solid black;
-    border-top: none;
+.signup input {
+    padding: 20px 30px 20px 5px;
+    width: 340px;
+	border-top: none;
 	border-left: none;
 	border-right: none;
-	background: none;
-	text-align: center;
+	border-bottom: 2px solid black;
+    background: none;
 }
 
-.news-email a {
-    font-size: 20px;
-    color: #000000;
+.signup input:focus {
+    outline: none;
 }
 
+.signup-form button {
+    position: absolute;
+    border: none;
+    background: none;
+    cursor: pointer;
+    top: 20px;
+    right: 10px;
+}
 /* Newsletter CSS End */
 
+/* Blog2 CSS Start */
+.blog2 {
+    padding-top: 30px;
+}
+/* Blog2 CSS End */
+
 /* Load More CSS Start */
-.load {
+.load-more {
+    padding: 160px 0;
 	text-align: center;
 }
 
@@ -222,7 +219,6 @@ p {
     border: 1px solid #626262;
     display: inline-block;
     padding: 20px 35px;
-    margin: 160px 0;
     text-decoration: none;
 }
 
@@ -237,24 +233,18 @@ footer {
     background-color: #f0f0f0;
 }
 
-.f_container {
-    width: 1050px;
-    overflow: hidden;
-    margin: 0 auto;
-}
-
-.f-contain-lft {
+.f-lft {
     width: 40%;
     float: left;
     padding: 40px 0;
 }
 
-.f-contain-lft ul li {
+.f-lft ul li {
     list-style: none;
     float: left;
 }
 
-.f-contain-lft ul li a {
+.f-lft ul li a {
     font-family: playfairDisplay-regular;
     font-size: 16px;
     color: #000000;
@@ -263,34 +253,33 @@ footer {
     padding-right: 30px;
 }
 
-.f-contain-rght {
+.f-rght {
     width: 40%;
     float: right;
     text-align: right;
     padding: 40px 0;
 }
 
-.f-contain-rght a {
+.f-rght a {
     font-size: 18px;
-    color: #000000;
+    color: #626262;
     text-decoration: none;
     display: inline-block;
     padding-left: 20px;
 }
 
-.f-contain-rght a:nth-child(1) {
+.f-rght a:nth-child(1) {
     font-family: playfairDisplay-regular;
     font-size: 16px;
 }
 
-.f-contain-rght a:nth-child(3):hover {
-    color: blue;
+.f-rght a:nth-child(3):hover {
+    color: #000;
     rotate: 60deg;
 }
 
-.f-contain-rght a:nth-child(even):hover {
-    color: blue;
+.f-rght a:nth-child(even):hover {
+    color: #000;
     rotate: 60deg;
 }
 /* Footer CSS End */
-
